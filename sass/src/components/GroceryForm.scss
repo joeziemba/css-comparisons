@@ -1,0 +1,29 @@
+@import "../style/global.scss";
+
+.grocery-form {
+  margin-bottom: $syn-space-xxl;
+
+  &__input {
+    @include shadow-md;
+    margin: $syn-space-sm;
+
+    padding: $syn-space-sm $syn-space;
+    border-radius: 0.375rem;
+    background-color: $gray-100;
+  }
+
+  &__submit {
+    @include shadow-md;
+    @include transition-colors;
+
+    background-color: $green-600;
+    margin: $syn-space-sm;
+    padding: $syn-space-sm $syn-space;
+    border-radius: $syn-rounded;
+    color: white;
+
+    &:hover {
+      background-color: $green-500;
+    }
+  }
+}

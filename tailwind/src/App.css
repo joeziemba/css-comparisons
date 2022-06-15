@@ -1,0 +1,11 @@
+* {
+  transition: color ease 0.1s;
+  transition: background-color ease 0.1s;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

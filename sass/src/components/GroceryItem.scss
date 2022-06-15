@@ -1,0 +1,35 @@
+@import "../style/global.scss";
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+
+  padding: $syn-space $syn-space-xxl;
+  width: 100%;
+
+  border-top: 1px solid rgb(229, 231, 235);
+  border-bottom: 1px solid rgb(229, 231, 235);
+
+  &__edit-button {
+    @include transition-colors;
+
+    font-size: large;
+    margin-right: $syn-space;
+
+    &:hover {
+      color: $blue-600;
+    }
+  }
+
+  &__delete-button {
+    @include transition-colors;
+
+    font-size: large;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

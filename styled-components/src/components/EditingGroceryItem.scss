@@ -1,0 +1,17 @@
+.editing-grocery-item {
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    width: 100%;
+
+    border-top: 1px solid rgb(229, 231, 235);
+    border-bottom: 1px solid rgb(229, 231, 235);
+  }
+
+  &__input {
+    padding: 0.5rem 1rem;
+  }
+}

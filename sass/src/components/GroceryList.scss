@@ -1,0 +1,10 @@
+@import "../style/global.scss";
+
+.grocery-list {
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: $syn-space-5xl;
+    margin-bottom: $syn-space-xxl;
+  }
+}
